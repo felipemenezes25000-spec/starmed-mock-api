@@ -3,6 +3,8 @@ services:
     name: starmed-mock-api
     runtime: node
     plan: free
+    repo: https://github.com/felipemenezes25000-spec/starmed-mock-api
+    branch: main
     buildCommand: npm install
     startCommand: node server.js
     envVars:
